@@ -27,18 +27,4 @@ $(document).ready(function() {
 		function() { $('h2').text("Frustration-free web-based apps for collaboration, sharing information, and making decisions."); }
 	);
 
-	$("#basecamp").hover(
-		function() { $('#arrow1').show('<img src="../images/arrow-left.png">'); },
-		function() { $('#arrow1').hide('<img src="../images/arrow-left.png">'); }
-	);
-
-
-
-
-
-
-
-
-
-
 });

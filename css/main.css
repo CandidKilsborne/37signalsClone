@@ -48,6 +48,7 @@ h1 {
 	margin-bottom: 15px;
 	margin-left: auto;
 	text-align: center;
+	z-index: 2;
 }
 
 h2 {
@@ -57,11 +58,38 @@ h2 {
 	font-size: 19px;
 	margin: 25px auto 25px;
 	font-weight: bold;
+	z-index: 2;
+}
+
+#arrows {
+	position: absolute;
+	z-index: 2;
+	margin-left: 250px;
+	padding-right: 200px;
+}
+
+.one {
+	margin-top: -10px;
+}
+
+.two {
+	margin-left: 220px;
+	margin-top: -30px;
+}
+
+.three {
+	margin-left: 285px;
+	margin-top: -10px;
+}
+
+.hidden {
+	display: none;
 }
 
 #options {
 	position: absolute;
 	top: 310px;
+	z-index: 1;
 }
 
 #options a {
@@ -73,6 +101,7 @@ h2 {
 }
 
 #basecamp {
+	z-index: 1;
 	width: 160px;
 	height: 220px;
 	margin: 15px 15px 5px 98px;
