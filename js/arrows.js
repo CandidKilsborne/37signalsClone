@@ -1,23 +1,23 @@
 $(document).ready(function() {
 
-	$('#basecamp').mouseenter(function() {
+	$('#options #basecamp').mouseenter(function() {
 		$('.one').removeClass('hidden');
 	});
-	$('#basecamp').mouseleave(function() {
+	$('#options #basecamp').mouseleave(function() {
 		$('.one').addClass('hidden');
 	});
 
-	$('#highrise').mouseenter(function() {
+	$('#options #highrise').mouseenter(function() {
 		$('.two').removeClass('hidden');
 	});
-	$('#highrise').mouseleave(function() {
+	$('#options #highrise').mouseleave(function() {
 		$('.two').addClass('hidden');
 	});
 
-	$('#campfire').mouseenter(function() {
+	$('#options #campfire').mouseenter(function() {
 		$('.three').removeClass('hidden');
 	});
-	$('#campfire').mouseleave(function() {
+	$('#options #campfire').mouseleave(function() {
 		$('.three').addClass('hidden');
 	});
 
